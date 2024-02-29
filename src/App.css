@@ -48,3 +48,8 @@
     transform: rotate(360deg);
   }
 }
+.table1{
+  padding-right: 10px;
+  border: 5px ;
+  padding-left: 10px;
+}

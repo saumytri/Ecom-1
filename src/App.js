@@ -3,7 +3,8 @@ import './App.css';
 import { useState } from 'react';
 import Header from './component/Header';
 import Slide from './component/Slide'; 
-import Mycart1 from './component/Mycart1'
+import Mycart1 from './component/Mycart1';
+import F from './component/F';
 
 function App() {
   const[products,setProducts]=useState([
@@ -320,6 +321,8 @@ function App() {
     <Mycart1 val1={val.length} val={val}></Mycart1>:
     <Slide myCart={myCart} products={products}/>
     }
+    
+    <F></F>
     </>
     
   );
